@@ -1,4 +1,4 @@
-import { label1, input1, label2, subInput, label3, input2 } from "./input.js"
+import { label1, input1, label2, subInput, label3, input2} from "./input.js"
 
 function mergeInput(){
     let mergeInput = document.createElement("div")
@@ -6,5 +6,7 @@ function mergeInput(){
     mergeInput.append( label1(), input1(), label2(), subInput(), label3(), input2())
     return mergeInput
 }
+
+
 
 export default mergeInput

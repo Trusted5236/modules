@@ -8,6 +8,7 @@ function btnDiv(){
 function button(){
     let button = document.createElement("button")
     button.textContent = "Sign UP"
+    button.setAttribute("type", "submit")
     return button
 }
 

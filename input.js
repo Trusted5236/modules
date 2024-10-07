@@ -16,6 +16,11 @@ function input1(){
     return input
 }
 
+
+
+let input1Value = input1().value
+console.log(input1Value)
+
 function label2(){
     let secondLabel = document.createElement("label")
     secondLabel.setAttribute("for", "name")
@@ -41,3 +46,5 @@ function input2(){
 }
 
 export {label1, input1, label2, subInput, label3, input2}
+
+export default input1Value
